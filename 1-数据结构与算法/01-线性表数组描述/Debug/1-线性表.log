@@ -1,0 +1,4 @@
+﻿F:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(1-线性表-数组描述.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  LinearList.c
+  动态数组.cpp
+  1-线性表.vcxproj -> G:\cpp\cpp-learning\1-数据结构与算法\01-线性表数组描述\Debug\01-线性表-数组描述.exe
