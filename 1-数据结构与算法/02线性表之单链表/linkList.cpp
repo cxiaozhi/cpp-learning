@@ -7,6 +7,7 @@ HeadNode createLinkList(int num)
   Node *nowNode = NULL;
   if (num == 0)
   {
+    headNode.length = 0;
     return headNode;
   }
   // 首先需要一个一个开辟空间
