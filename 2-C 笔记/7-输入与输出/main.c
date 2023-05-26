@@ -3,10 +3,10 @@
 #include <locale.h>
 int main()
 {
-  int year, mouth, day;
-  scanf("%d % d %d", &year, &mouth, &day);
-  printf("请输入年月日，之间用空格隔开");
-  printf("%d年 %d 月%d 日", year, mouth, day);
+  int year, day;
+  char monthname[20];
+  // 必须要传地址，不然传递的只是值的副本
+  scanf("%d %s %d", &year, monthname, &day);
 
   return 0;
 }
